@@ -8,11 +8,12 @@
 
 #display{
     width: 100%;
-    
     padding: 20px;
     font-size: 5rem;
     text-align: left;
     border: none;
+    background-color: lightpink;
+    color: white;
 }
 
 #keys{
