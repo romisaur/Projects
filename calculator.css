@@ -1,4 +1,26 @@
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
 
+#display{
+    width: 100%;
+    
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 25px;
+}
 
 
 
@@ -10,7 +32,7 @@ button{
     height: 100px;
     border-radius: 50%;
     border: none;
-    background-color: #808080;
+    background-color: #950559;
     color: white;
     font-size: 3rem; 
     font-weight: bold;
