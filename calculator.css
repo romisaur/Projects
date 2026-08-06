@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+   
 }
 
 
@@ -22,7 +23,7 @@ body{
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: lightpink;
+    background-color: rgb(250, 208, 214);
     color: white;
 }
 
@@ -48,5 +49,13 @@ button{
     font-size: 3rem; 
     font-weight: bold;
     cursor: pointer;
+   
 }
 
+button:hover{
+    background-color: #d5499b;
+}
+
+button:active{
+    background-color: #ffeaf5;
+}
